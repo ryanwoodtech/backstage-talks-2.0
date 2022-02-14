@@ -5,9 +5,11 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
+    width: 0; /* Remove scrollbar space */
 }
+
 :root {
     --bg-color-5: #00c1b5;
     --bg-color-4: #ff651a;
@@ -33,6 +35,7 @@ body {
     background-color: var(--bg-color-5);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    transition: background-color 500ms linear;
 }
 
 a {
@@ -103,6 +106,26 @@ p {
 
 .content-right__bottom a {
     text-decoration: none;
+}
+
+.issue {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.issue-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.issue-container__image {
+    height: 52.5%;
 }
 
 
