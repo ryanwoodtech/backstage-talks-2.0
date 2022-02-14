@@ -8,7 +8,6 @@ const issueBackgroundColors = {
     issue1: '#e30512'
 }
 
-
 // document.onload = getCurrentIssue()
 
 let currentIssue = 5
