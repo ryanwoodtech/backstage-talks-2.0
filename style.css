@@ -103,6 +103,10 @@ p {
     font-size: 18px;
 }
 
+.content-right__bottom > li:hover {
+    text-decoration: underline;
+}
+
 .content-right__bottom a {
     text-decoration: none;
 }
