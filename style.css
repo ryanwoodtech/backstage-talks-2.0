@@ -2,7 +2,6 @@
 
 /* Remove scrollbars */
 html {
-    overflow: scroll;
     overflow-x: hidden;
 }
 
